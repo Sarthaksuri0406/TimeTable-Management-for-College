@@ -91,23 +91,6 @@ npm run db:seed
 npm start
 ```
 
-### Frontend Setup
-1. Navigate to frontend directory
-```bash
-cd ../frontend
-npm install
-```
-
-2. Create `.env` file with backend API endpoint
-```
-VITE_API_ENDPOINT=http://localhost:5000/api
-```
-
-3. Start Development Server
-```bash
-npm run dev
-```
-
 ## API Endpoints
 - `/auth/register` - User Registration
 - `/auth/login` - User Authentication
@@ -137,6 +120,3 @@ npm run dev
 
 ## License
 MIT License
-
-## Contact
-Your Name - armaanmittal00@gmail.com
